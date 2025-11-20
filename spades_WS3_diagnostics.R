@@ -1,5 +1,5 @@
 defineModule(sim, list(
-  name = "fireHarvestPlots",
+  name = "spades_ws3_diagnostics",
   description = "Module to plot fire and harvest time series after simulation completes",
   keywords = c("plotting", "visualization", "fire", "harvest"),
   authors = c(person("Allen", "Larocque", email = NA, role = c("aut", "cre"))),
