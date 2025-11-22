@@ -57,6 +57,21 @@ Init <- function(sim) {
 
 ## Plotting functions:
 
+# Access inventory: (something like:)
+# Plot <- function(sim) {
+#   # Access the forest model
+#   fm <- sim$fm
+#
+#   # Call Python methods via reticulate
+#   total_area <- py$fm$inventory(0)
+#   periods <- py$fm$periods
+#
+#   # Or use the R object (reticulate handles conversion)
+#   # ...
+# }
+
+
+
 # Plot age class structure:
 # At start, at end, at each year, as an animation through time, as a 3-D manifold
 
